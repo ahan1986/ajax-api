@@ -23,6 +23,7 @@ $("#myButtons").on('click', ".movie-btn", function(){
             image = image.attr("data-state", "still");
             //appending the image and the rating below the images
             $("#myStuff").append(image).append("<p> Rating: "+ response.data[i].rating +"</p>");
+            // $("#myStuff").append("<p> " + image + " Rating: " + response.data[i].rating +"</p>");
         }
     });
 })

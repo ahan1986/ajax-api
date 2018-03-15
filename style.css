@@ -1,0 +1,9 @@
+.grid-container{
+    display: grid;
+    grid-area: 'button button button button';
+    grid-template-rows: 80px 200px;
+    grid-template-columns: 200px 80px;
+}
+.buttons {
+    grid-area: button;
+}
